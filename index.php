@@ -1,4 +1,4 @@
-<?
+<?php
 	function getEnderecoCorreios($cep){	
 		$action="http://www.buscacep.correios.com.br/servicos/dnec/consultaLogradouroAction.do" ;	
 		$ch = curl_init($action);

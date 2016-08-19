@@ -23,7 +23,9 @@
 			print "UF:".$uf."<br>";
 			print "CEP:".$cep."<br>";
 		
-		}else print "CEP Nao encontrado";
+		} else { 
+			print "CEP Nao encontrado";
+		}
 	}
 	
 	if ($_POST) {

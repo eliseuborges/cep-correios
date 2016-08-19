@@ -26,8 +26,9 @@
 		}else print "CEP Nao encontrado";
 	}
 	
-	if($_POST)
+	if ($_POST) {
 		getEnderecoCorreios($_POST["CEP"]);
+	}
 ?>
 <form name="form" id="form" method="post" action="index.php">
 	<input type="text" name="CEP" id="CEP" value="">

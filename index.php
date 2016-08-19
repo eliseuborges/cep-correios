@@ -11,7 +11,7 @@
 		curl_close($ch);
 		
 		//EXTRAINDO VALORES
-		if($pos   = strpos($r, '<table border="0" cellspacing="1" cellpadding="5" bgcolor="gray">')){
+		if ($pos   = strpos($r, '<table border="0" cellspacing="1" cellpadding="5" bgcolor="gray">')) {
 			$table = substr($r,$pos,500);
 			
 			list($logradouro,$bairro,$uf,$cep) = split("    ",trim(strip_tags($table)));

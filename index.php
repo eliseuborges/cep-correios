@@ -13,7 +13,7 @@
 		//EXTRAINDO VALORES
 		if($pos   = strpos($r, '<table border="0" cellspacing="1" cellpadding="5" bgcolor="gray">')){
 			$table = substr($r,$pos,500);
-			//print $table;
+			
 			list($logradouro,$bairro,$uf,$cep) = split("    ",trim(strip_tags($table)));
 			list($tipoLogr,$nomeLogr) = split(" ",$logradouro,2);
 			

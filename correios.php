@@ -15,7 +15,7 @@ class Correios{
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
         curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, "relaxation=" . $cep . "&Metodo=listaLogradouro&TipoConsulta=cep&StartRow=1&EndRow=10");
+        curl_setopt($ch, CURLOPT_POSTFIELDS, "relaxation=" . $cep);
 
         $response = curl_exec($ch);
         curl_close($ch);

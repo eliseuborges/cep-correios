@@ -1,6 +1,5 @@
 <?php
 /**
- * Version: 1.5
  * User: Eliseu Borges
  * Date: 02/07/2017
  * Time: 13:21

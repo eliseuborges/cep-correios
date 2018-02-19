@@ -2,6 +2,8 @@
 
 Busca CEP na base dos correios - Brasil
 
+[![Build Status](https://travis-ci.org/eliseuborges/cep-correios.svg?branch=master)](https://travis-ci.org/eliseuborges/cep-correios)
+
 ## Exemplo de uso
 
 ```php
